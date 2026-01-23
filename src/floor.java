@@ -6,7 +6,7 @@ public class floor {
         System.out.println(ans);
 
     }
-    static int ceil(int[]ary,int target){
+   public static int ceil(int[]ary,int target){
         int start=0;
         int end=ary.length-1;
         if(ary.length==0){
