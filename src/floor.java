@@ -4,7 +4,6 @@ public class floor {
         int target=7;
         int ans=ceil(array,target);
         System.out.println(ans);
-
     }
    public static int ceil(int[]ary,int target){
         int start=0;
@@ -15,7 +14,6 @@ public class floor {
         if(target<0){
             return -1;
         }
-
         while(start<=end){
             int mid=start+(end-start)/2;
             if(target==ary[mid]){
